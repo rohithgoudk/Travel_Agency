@@ -1,0 +1,27 @@
+.dashboard{
+    min-height:100vh;
+    padding:120px 8%;
+    background:#f8fafc;
+  }
+  
+  .dashboard h1{
+    margin-bottom:40px;
+  }
+  
+  .trip-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+  }
+  
+  .trip-card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,.1);
+    transition:.4s;
+  }
+  
+  .trip-card:hover{
+    transform:translateY(-10px);
+  }
